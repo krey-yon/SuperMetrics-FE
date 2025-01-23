@@ -49,7 +49,7 @@ function PageThree() {
           <img
             src="/image/L.svg"
             alt=""
-            class="absolute top-0 right-0 z-10"
+            className="absolute top-0 right-0 z-10"
           />{" "}
           <img
             src="/image/L.svg"
