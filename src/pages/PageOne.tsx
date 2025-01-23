@@ -7,7 +7,7 @@ function PageOne() {
     <div className="bg-[#F9FAFB] flex flex-col w-full overflow-auto pt-2 md:flex-row items-center justify-between md:pt-28 py-2">
         <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
           <h1 className="text-[2rem] leading-[1.2] md:text-6xl font-semibold text-[#0A2540] mb-6">
-            Sync Your Marketing Data to{" "}
+            Sync Your Marketing Data to{" "} <br />
             <span className="whitespace-nowrap">
               <span className="text-[#4285F4]">G</span>
               <span className="text-[#EA4335]">o</span>

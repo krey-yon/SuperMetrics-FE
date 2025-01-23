@@ -1,4 +1,5 @@
 import PageOne from "@/pages/PageOne";
+import PageThree from "@/pages/PageThree";
 import PageTwo from "@/pages/PageTwo";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <PageOne />
       <PageTwo />
+      <PageThree />
     </div>
   );
 }
