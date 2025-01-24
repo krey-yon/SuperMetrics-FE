@@ -1,3 +1,5 @@
+import Divider from "@/components/Divider";
+import PageFive from "@/pages/PageFive";
 import PageFour from "@/pages/PageFour";
 import PageOne from "@/pages/PageOne";
 import PageThree from "@/pages/PageThree";
@@ -10,6 +12,8 @@ export default function Home() {
       <PageTwo />
       <PageThree />
       <PageFour />
+      <Divider />
+      <PageFive />
     </div>
   );
 }
