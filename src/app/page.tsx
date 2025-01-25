@@ -6,6 +6,7 @@ import PageFour from "@/pages/PageFour";
 import PageOne from "@/pages/PageOne";
 import PageThree from "@/pages/PageThree";
 import PageTwo from "@/pages/PageTwo";
+import Testimonials from "@/pages/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <PageTwo />
       <PageThree />
       <PageFour />
+      <Divider />
+      <Testimonials />
       <Divider />
       <PageFive />
       <InstallNowPage />
