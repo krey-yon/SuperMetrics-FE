@@ -1,4 +1,6 @@
 import Divider from "@/components/Divider";
+import Marque from "@/components/Marque";
+import InstallNowPage from "@/pages/InstallNowPage";
 import PageFive from "@/pages/PageFive";
 import PageFour from "@/pages/PageFour";
 import PageOne from "@/pages/PageOne";
@@ -14,6 +16,8 @@ export default function Home() {
       <PageFour />
       <Divider />
       <PageFive />
+      <InstallNowPage />
+      <Marque />
     </div>
   );
 }

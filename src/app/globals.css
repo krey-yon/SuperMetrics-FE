@@ -7,6 +7,48 @@
   --foreground: #171717;
 }
 
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #f9fafb; /* Optional background color */
+}
+
+.marquee {
+  display: flex;
+  gap: 2rem; /* Adjust spacing between marquee-content elements */
+  animation: marquee 35s linear infinite; /* Slower animation */
+  will-change: transform; /* Optimizes performance for animations */
+}
+
+.marquee-content {
+  display: flex;
+  gap: 1rem; /* Adjust spacing between items inside marquee-content */
+}
+
+.marquee-content a {
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+/* Animation for seamless loop */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Duplicate marquee-content for seamless looping */
+.marquee-container .marquee {
+  width: max-content; /* Ensures the content stretches for seamless loop */
+}
+
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
