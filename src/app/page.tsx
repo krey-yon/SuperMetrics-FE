@@ -6,6 +6,7 @@ import PageFour from "@/pages/PageFour";
 import PageOne from "@/pages/PageOne";
 import PageThree from "@/pages/PageThree";
 import PageTwo from "@/pages/PageTwo";
+import Pricing from "@/pages/Pricing";
 import Testimonials from "@/pages/Testimonials";
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <PageTwo />
       <PageThree />
       <PageFour />
+      <Divider />
+      <Pricing />
       <Divider />
       <Testimonials />
       <Divider />
